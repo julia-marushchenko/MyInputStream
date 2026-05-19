@@ -21,7 +21,7 @@ public class Main {
             // Variable to store size of file.
             int sizeOfFile = 0;
 
-            // Openning input stream.
+            // Opening input stream.
             InputStream in = new FileInputStream("src/File.txt");
 
             while (in.read() != -1) {
